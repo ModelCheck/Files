@@ -1,4 +1,0 @@
-using system;
-SATHI_CODE
-TEST CODE WITH SATHI-ID;
-
