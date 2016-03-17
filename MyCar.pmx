@@ -32,7 +32,11 @@
         <relations/>
         <functions/>
         <language_translations/>
-        <variable name="NewVariable" is_private="false" is_enabled="true" type="String" uuid="7376cd47-e873-4c3c-9ce3-6621fffb4c15" is_read_only="false">
+        <variable name="Color" is_private="false" is_enabled="true" type="String" uuid="7376cd47-e873-4c3c-9ce3-6621fffb4c15" is_read_only="false">
+          <property_values/>
+          <language_translations/>
+        </variable>
+        <variable name="Material" is_private="false" is_enabled="true" type="String" uuid="766554cb-8469-4240-95f5-0c7c4e31b98e" is_read_only="false">
           <property_values/>
           <language_translations/>
         </variable>
