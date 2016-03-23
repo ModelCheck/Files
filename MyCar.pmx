@@ -40,6 +40,10 @@
           <property_values/>
           <language_translations/>
         </variable>
+        <variable name="Weight" is_private="false" is_enabled="true" type="String" uuid="f259f1e1-676c-4e52-9c40-5ea437174185" is_read_only="false">
+          <property_values/>
+          <language_translations/>
+        </variable>
       </group>
       <group name="Engine" is_private="false" is_enabled="true" uuid="be5b8930-dda0-4221-bdad-a3c3b545dd9c" is_read_only="false">
         <property_values/>
