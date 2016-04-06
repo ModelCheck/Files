@@ -36,6 +36,10 @@
           <property_values/>
           <language_translations/>
         </variable>
+        <variable name="Color" is_private="false" is_enabled="true" type="String" uuid="54d68d81-445e-42f5-ab25-ebf6a784d109" is_read_only="false">
+          <property_values/>
+          <language_translations/>
+        </variable>
       </group>
       <group name="Engine" is_private="false" is_enabled="true" uuid="be5b8930-dda0-4221-bdad-a3c3b545dd9c" is_read_only="false">
         <property_values/>
