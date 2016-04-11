@@ -34,6 +34,14 @@
         <property_values/>
         <language_translations/>
       </variable>
+      <variable name="B2" is_private="false" is_enabled="true" type="Boolean" uuid="95856281-4e33-4473-9095-c5ef722a2503" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
+      <variable name="I2" is_private="false" is_enabled="true" type="Integer" uuid="331e0fad-30b1-4ef0-af52-5c9871c1492f" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
       <rules/>
       <relations>
         <relation name="B1I1" is_enabled="true" uuid="052916a3-4bf4-49ec-8be1-5780cf5d00f4" is_read_only="false">
@@ -49,6 +57,22 @@
             <relation_row>
               <relation_value>true</relation_value>
               <relation_value>100</relation_value>
+            </relation_row>
+          </relation_values>
+        </relation>
+        <relation name="B2I2" is_enabled="true" uuid="0f532afd-416e-4fa5-8e44-fa552bbeea3e" is_read_only="false">
+          <relation_columns>
+            <relation_column variable_uuid="331e0fad-30b1-4ef0-af52-5c9871c1492f" variable_name="I2"/>
+            <relation_column variable_uuid="95856281-4e33-4473-9095-c5ef722a2503" variable_name="B2"/>
+          </relation_columns>
+          <relation_values>
+            <relation_row>
+              <relation_value>25</relation_value>
+              <relation_value>false</relation_value>
+            </relation_row>
+            <relation_row>
+              <relation_value>35</relation_value>
+              <relation_value>true</relation_value>
             </relation_row>
           </relation_values>
         </relation>
