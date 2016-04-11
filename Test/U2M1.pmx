@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE workspace SYSTEM "modeler.dtd" -->
+<workspace version="58">
+  <product_model name="U2M1" uuid="de6060c7-800e-4fd4-8051-2dee0da99d1c">
+    <compile_options>
+      <property_values>
+        <property_value name="cache_size">100</property_value>
+        <property_value name="dynamic_vt">false</property_value>
+        <property_value name="exp_static">true</property_value>
+        <property_value name="no_warnings">false</property_value>
+        <property_value name="preserve_memory">false</property_value>
+        <property_value name="sort_rules">3</property_value>
+        <property_value name="static_vt">true</property_value>
+        <property_value name="support_pct">60</property_value>
+        <property_value name="table_size">100</property_value>
+        <property_value name="timeout">-1</property_value>
+        <property_value name="tob_cache_size">100</property_value>
+        <property_value name="tob_daog_preprocessor">true</property_value>
+        <property_value name="tob_preserve_memory">false</property_value>
+        <property_value name="tob_split">true</property_value>
+        <property_value name="tob_table_size">100</property_value>
+        <property_value name="tob_varorder">-1</property_value>
+        <property_value name="varorder">-1</property_value>
+        <property_value name="verbose_level">false</property_value>
+      </property_values>
+    </compile_options>
+    <property_values/>
+    <product_model_structure>
+      <variable name="B1" is_private="false" is_enabled="true" type="Boolean" uuid="640cfda1-e4a9-4f4c-b2ab-5095f0ffa1cb" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
+      <variable name="I1" is_private="false" is_enabled="true" type="Integer" uuid="533ad790-33db-4eb5-98f4-34f9d360b1bd" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
+      <rules/>
+      <relations>
+        <relation name="B1I1" is_enabled="true" uuid="f688f0de-9ce7-4047-a491-f5a7c556714e" is_read_only="false">
+          <relation_columns>
+            <relation_column variable_uuid="640cfda1-e4a9-4f4c-b2ab-5095f0ffa1cb" variable_name="B1"/>
+            <relation_column variable_uuid="533ad790-33db-4eb5-98f4-34f9d360b1bd" variable_name="I1"/>
+          </relation_columns>
+          <relation_values>
+            <relation_row>
+              <relation_value>false</relation_value>
+              <relation_value>55</relation_value>
+            </relation_row>
+            <relation_row>
+              <relation_value>true</relation_value>
+              <relation_value>112</relation_value>
+            </relation_row>
+          </relation_values>
+        </relation>
+      </relations>
+      <functions/>
+    </product_model_structure>
+    <variable_types/>
+    <property_groups>
+      <property_group group="product_model">
+        <properties/>
+      </property_group>
+      <property_group group="groups">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="b501475c-ab87-4b52-8f6e-a6512130d7bd" is_read_only="false" builtin="true">
+            <description>The name of the group. Group names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="146b1a2a-2a7b-4754-b60b-6dd6cbd8fb1a" is_read_only="false" builtin="true">
+            <description>Description of group. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="d7d80df8-c51b-439c-943d-1357b285504b" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the group.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="e8a1584b-57d4-4e58-a2ac-84480d1da38d" is_read_only="false" builtin="true">
+            <description>When a group is private, all variables in the group and all sub-groups are private. Thus, the content of a private group is not included in the VT file, but any rules that bind variables inside and outside the group remain in effect.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="variables">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="2c97f3ea-60e4-4c32-8d16-782b439074cc" is_read_only="false" builtin="true">
+            <description>The name of the variable. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="c3615ce2-5898-4454-80bb-9816e8cdb57b" is_read_only="false" builtin="true">
+            <description>Description of variable. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="a54b67be-c1f9-4100-bfe4-25249ed8acec" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the variable.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="58d739ad-8ef9-4a5c-b4af-062588cded02" is_read_only="false" builtin="true">
+            <description>A private variable is not included in the VT file, but it can still be used in rules. Making the variable private will make the VT file smaller.</description>
+          </property>
+          <property name="Bound" type="Integer" export_property="true" uuid="084a693c-49fd-4863-ac92-10f2bc9b99d7" is_read_only="false" builtin="true">
+            <description>The upper bound for variables of type Range. The value of range variables must be in the interval from 0 to the number given by this property.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="values">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="8e0ea2ce-f6f8-4a48-bbb3-e28eb6d58ce7" is_read_only="false" builtin="true">
+            <description>The enum value. Enumeration values can be any string. The only restrictions is that they have to be unique within the type.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="278cde9f-52d4-433a-8456-6a991f9d863f" is_read_only="false" builtin="true">
+            <description>Description of value. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="427be749-41bc-4575-9e1c-aa8a6867bf4f" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the Value.</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="rules">
+        <properties/>
+      </property_group>
+      <property_group group="relations">
+        <properties/>
+      </property_group>
+      <property_group group="functions">
+        <properties/>
+      </property_group>
+    </property_groups>
+    <variable_orders/>
+    <languages/>
+  </product_model>
+</workspace>
