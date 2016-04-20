@@ -82,6 +82,14 @@
             <function_args/>
             <function_body>return 0.0;</function_body>
           </function>
+          <function name="AddFolder" type="Float" is_enabled="true" uuid="503c772b-8f3d-488c-bfc0-eb5458e962a7" is_read_only="false">
+            <function_args/>
+            <function_body>return 0.0;</function_body>
+          </function>
+          <function name="Refresh" type="Float" is_enabled="true" uuid="938956cd-56ba-4609-b347-ed7f861226ee" is_read_only="false">
+            <function_args/>
+            <function_body>return 0.0;</function_body>
+          </function>
         </functions>
         <language_translations/>
       </group>
