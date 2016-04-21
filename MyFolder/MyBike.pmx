@@ -45,6 +45,10 @@
         <property_values/>
         <language_translations/>
       </variable>
+      <variable name="Colour" is_private="false" is_enabled="true" type="String" uuid="19ef2e21-7331-4d18-84e9-b20ae8711be0" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
       <rules/>
       <relations/>
       <functions/>
