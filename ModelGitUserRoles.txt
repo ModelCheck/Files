@@ -1,3 +1,4 @@
 sathiconfigit,Admin
 meenaconfigit,Admin
 sampleuser,Intermediate
+user2,Basic
