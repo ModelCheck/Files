@@ -49,6 +49,13 @@
         <property_values/>
         <language_translations/>
       </variable>
+      <group name="Body" is_private="false" is_enabled="true" uuid="86c6fcae-23d1-495c-913c-f3f971a58b8b" is_read_only="false">
+        <property_values/>
+        <rules/>
+        <relations/>
+        <functions/>
+        <language_translations/>
+      </group>
       <rules/>
       <relations/>
       <functions/>
