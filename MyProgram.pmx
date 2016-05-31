@@ -60,10 +60,6 @@
           <property_values/>
           <language_translations/>
         </variable>
-        <variable name="var1" is_private="false" is_enabled="true" type="String" uuid="5c3994bb-f6ab-4528-a9f7-2d2d6c9a8f5a" is_read_only="false">
-          <property_values/>
-          <language_translations/>
-        </variable>
       </group>
       <group name="methods" is_private="false" is_enabled="true" uuid="d56a335e-d430-4f6d-9cd9-a16efc014a86" is_read_only="false">
         <property_values/>
