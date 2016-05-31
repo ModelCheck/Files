@@ -3,3 +3,4 @@ meenaconfigit,Admin
 sampleuser,Intermediate
 user2,Basic
 user2,Intermediate
+user5,Admin
