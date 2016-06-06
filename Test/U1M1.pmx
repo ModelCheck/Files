@@ -42,6 +42,10 @@
         <property_values/>
         <language_translations/>
       </variable>
+      <variable name="I3" is_private="false" is_enabled="true" type="Boolean" uuid="b0053329-ca0e-444a-af90-f2a64857bdc4" is_read_only="false">
+        <property_values/>
+        <language_translations/>
+      </variable>
       <rules/>
       <relations>
         <relation name="B1I1" is_enabled="true" uuid="052916a3-4bf4-49ec-8be1-5780cf5d00f4" is_read_only="false">
