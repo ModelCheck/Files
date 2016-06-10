@@ -40,6 +40,10 @@
           <property_values/>
           <language_translations/>
         </variable>
+        <variable name="NewVariable_2" is_private="false" is_enabled="true" type="Integer" uuid="b4ad3c38-1f78-4279-b910-0060e4156927" is_read_only="false">
+          <property_values/>
+          <language_translations/>
+        </variable>
       </group>
       <group name="Engine" is_private="false" is_enabled="true" uuid="be5b8930-dda0-4221-bdad-a3c3b545dd9c" is_read_only="false">
         <property_values/>
