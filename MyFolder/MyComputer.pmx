@@ -36,6 +36,10 @@
           <property_values/>
           <language_translations/>
         </variable>
+        <variable name="adapter" is_private="false" is_enabled="true" type="String" uuid="67d776e5-a6e7-42dd-9a5b-c7726a2ac8ad" is_read_only="false">
+          <property_values/>
+          <language_translations/>
+        </variable>
       </group>
       <group name="Processor" is_private="false" is_enabled="true" uuid="be456579-0a57-445b-91fe-6c058f8ce395" is_read_only="false">
         <property_values/>
